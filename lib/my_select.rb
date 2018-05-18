@@ -12,5 +12,6 @@ end
 
 
 my_select([1, 2, 3, 4, 5]) do |num|
-  num.even?
+  if num%2 == 0
+    num
 end
