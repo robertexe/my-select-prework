@@ -10,6 +10,7 @@ def my_select(collection)
         return nil
       end
     end
+    return output
   end
 end
 
